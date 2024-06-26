@@ -3,7 +3,7 @@
 class moon
 {
     public const GREGORIAN = array(0, 2, 0, 2, 2, 4, 5, 6, 7, 8, 9, 10);
-    public function main($year = 2012, $mon = 12, $day = 12)
+    public static function main($year = 2012, $mon = 12, $day = 12)
     {
         $cnt=0;
         $start = base_convert(bin2hex('🌑'), 16, 10);//U+1F311
